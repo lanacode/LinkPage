@@ -8,8 +8,8 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #f4f4f4;
     text-align: center;
+    background-color: #f4f4f4; /* Adiciona uma cor de fundo para toda a página */
 }
 
 .header {
@@ -19,15 +19,18 @@ body {
 
 .header .profile img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80%; /* Ajusta a largura da imagem para ocupar 80% da tela */
+    max-width: 300px; /* Define um tamanho máximo para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
     object-fit: cover;
     margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
 }
 
 .header .profile h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #ff6600;
 }
 
 .header .profile p {
@@ -36,19 +39,22 @@ body {
 }
 
 .links {
-    padding: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
 }
 
 .link {
     display: block;
     background-color: #ff6600;
     color: #fff;
-    padding: 15px;
+    padding: 20px;
     margin: 10px auto;
-    width: 80%;
+    width: 90%; /* Ajusta a largura dos links para ocupar 90% da tela */
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s;
+    margin-bottom: 18px;
+    font-size: 18px; /* Ajusta o tamanho da fonte dos links */
 }
 
 .link:hover {
@@ -67,9 +73,9 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 853px) {
     .header {
-        padding: 30px 20px;
+        padding: 30px 10px;
     }
 
     .header .profile h1 {
@@ -82,7 +88,7 @@ body {
 
     .link {
         width: 90%;
-        padding: 12px;
+        padding: 15px;
         font-size: 16px;
     }
 }
@@ -93,8 +99,8 @@ body {
     }
 
     .header .profile img {
-        width: 80px;
-        height: 80px;
+        width: 70%; /* Ajusta a largura da imagem para 70% da tela */
+        max-width: 150px; /* Define um tamanho máximo para a imagem em telas pequenas */
     }
 
     .header .profile h1 {
@@ -107,7 +113,7 @@ body {
 
     .link {
         width: 95%;
-        padding: 10px;
+        padding: 12px;
         font-size: 14px;
     }
 
@@ -115,3 +121,4 @@ body {
         font-size: 12px;
     }
 }
+
