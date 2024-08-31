@@ -1,6 +1,6 @@
-# Page Deadpool
+# Page Link
 
-Bem-vindo ao repositório da *Site Deadpool*! Este projeto foi criado durante uma aula para simular o lançamento de um evento.
+Bem-vindo ao repositório da *Pagina de Links*! Este projeto é de autoria minha.
 
 <img src="/imagens/Pagina de Links (tema orange).png">
 
