@@ -1,27 +1,36 @@
-# Page Link
+# Pagina de Links
 
-Bem-vindo ao repositório da *Pagina de Links*! Este projeto é de autoria minha.
+## 📚 Visão Geral
+Este repositório contém o codigo fonte da pagina de links para a bio do instagram @lanaatech, meu perfil de tecnologia. 
 
-<img src="/imagens/Pagina de Links (tema orange).png">
+## 🛠️ Arquitetura do Projeto
+```
+link-pages/
+├── /image → Imagens utilizadas no projeto 
+│ ├── index.html → Estrutura/Esqueleto do site 
+│ ├── style.css → Estilização
+│ ├── README.ds → Documentação
+└── 
+```
 
-## 📋 Descrição
+## ✨ O que você encontrará
+Codigo fonte da pagina.
 
-Este repositório contém o código-fonte para uma Pagina de Links moderna e responsiva, ideal para agrupar os links de suas redes sociais. A página inclui:
+## 🚀 Como baixar e executar o projeto em outra máquina
 
-* *Design Responsivo*: Compatível com diferentes dispositivos e tamanhos de tela.
-* *Seções Atraentes*: Inclui seções para destacar características, benefícios e chamadas para ação.
+### Certifique-se de ter instalado em sua máquina:
+- Git (para clonar o repositório).
 
-## 🚀 Funcionalidades
+1. Após confirmar, abra o seu terminal e execute o comando abaixo:
 
-* Layout adaptável e otimizado para todos os dispositivos.
+git clone https://github.com/lanaatech/node-fundaments.git
 
-## 🔧 Tecnologias Utilizadas
-
+## 🛠️ Tecnologias Utilizadas
 * *HTML5*: Estrutura da página.
 * *CSS3*: Estilização e design responsivo.
 
 ## 🔗 Links Úteis
 
-* *Instagram*: https://www.instagram.com/artedasredes/
+* *Instagram*: https://www.instagram.com/lanaatech/
 * *Contato*: artedasredes@gmail.com
-* *Link para acessar o site*: https://sitepaginadelinks.netlify.app/
+* *Linkedin*: https://www.linkedin.com/in/lanaatech/
