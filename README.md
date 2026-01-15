@@ -23,7 +23,7 @@ Codigo fonte da pagina.
 
 1. Após confirmar, abra o seu terminal e execute o comando abaixo:
 
-git clone https://github.com/lanaatech/node-fundaments.git
+[git clone https://github.com/lanaatech/node-fundaments.git](https://github.com/lanaatech/my-link-page)
 
 ## 🛠️ Tecnologias Utilizadas
 * *HTML5*: Estrutura da página.
